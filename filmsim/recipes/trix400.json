@@ -1,0 +1,25 @@
+{
+  "id": "trix400",
+  "name": "Ilford Tri-X 400",
+  "family": "黑白 · 纪实",
+  "description": "经典黑白：中高对比、粗颗粒、暗部细节扎实。",
+  "matrix": [
+    [0.30, 0.58, 0.12],
+    [0.30, 0.58, 0.12],
+    [0.30, 0.58, 0.12]
+  ],
+  "saturation": 0.0,
+  "curve": {
+    "contrast": 1.15,
+    "shadow_lift": 0.01,
+    "highlight_rolloff": 0.04
+  },
+  "grain": {
+    "intensity": 0.55,
+    "size": 2.5,
+    "mono": true
+  },
+  "bw": true,
+  "lut3d": null,
+  "strength": 1.0
+}

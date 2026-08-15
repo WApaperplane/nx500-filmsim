@@ -1,0 +1,21 @@
+# 二进制 / 编译产物
+*.arm
+*.exe
+*.o
+*.so
+out/
+
+# 媒体 / 测试图
+*.JPG
+*.jpg
+*.jpeg
+*.png
+*.bmp
+*.cube
+
+# 备份 / 本地目录
+.uploads/
+backup_original/
+*.log
+.DS_Store
+Thumbs.db

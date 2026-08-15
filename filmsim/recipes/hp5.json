@@ -1,0 +1,25 @@
+{
+  "id": "hp5",
+  "name": "Ilford HP5 Plus",
+  "family": "黑白 · 中颗粒",
+  "description": "经典黑白：中对比、细腻颗粒、暗部丰富。",
+  "matrix": [
+    [0.34, 0.56, 0.10],
+    [0.34, 0.56, 0.10],
+    [0.34, 0.56, 0.10]
+  ],
+  "saturation": 0.0,
+  "curve": {
+    "contrast": 1.00,
+    "shadow_lift": 0.01,
+    "highlight_rolloff": 0.05
+  },
+  "grain": {
+    "intensity": 0.42,
+    "size": 1.8,
+    "mono": true
+  },
+  "bw": true,
+  "lut3d": null,
+  "strength": 1.0
+}

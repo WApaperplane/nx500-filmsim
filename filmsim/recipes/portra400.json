@@ -1,0 +1,25 @@
+{
+  "id": "portra400",
+  "name": "Kodak Portra 400",
+  "family": "负片 · 暖调人像",
+  "description": "经典人像负片：暖肤色、低饱和高光、柔和过渡。",
+  "matrix": [
+    [1.06, 0.04, -0.02],
+    [0.01, 1.00, 0.02],
+    [-0.02, 0.05, 0.92]
+  ],
+  "saturation": 0.95,
+  "curve": {
+    "contrast": 0.85,
+    "shadow_lift": 0.03,
+    "highlight_rolloff": 0.07
+  },
+  "grain": {
+    "intensity": 0.30,
+    "size": 1.2,
+    "mono": false
+  },
+  "bw": false,
+  "lut3d": null,
+  "strength": 1.0
+}

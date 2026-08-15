@@ -1,0 +1,25 @@
+{
+  "id": "superia400",
+  "name": "Fuji Superia 400",
+  "family": "负片 · 日常胶片",
+  "description": "通用负片：柔和暖调、肤色偏粉、宽容度高。",
+  "matrix": [
+    [1.02, 0.05, 0.02],
+    [0.00, 0.99, 0.04],
+    [-0.01, 0.02, 1.04]
+  ],
+  "saturation": 1.05,
+  "curve": {
+    "contrast": 0.90,
+    "shadow_lift": 0.02,
+    "highlight_rolloff": 0.06
+  },
+  "grain": {
+    "intensity": 0.35,
+    "size": 1.5,
+    "mono": false
+  },
+  "bw": false,
+  "lut3d": null,
+  "strength": 1.0
+}

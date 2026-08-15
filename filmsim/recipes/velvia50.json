@@ -1,0 +1,25 @@
+{
+  "id": "velvia50",
+  "name": "Fuji Velvia 50",
+  "family": "反转片 · 高饱和风光",
+  "description": "风光反转片：超高饱和、强对比、通透的绿色与蓝色。",
+  "matrix": [
+    [1.02, -0.04, 0.02],
+    [-0.03, 1.10, -0.02],
+    [0.00, -0.06, 1.08]
+  ],
+  "saturation": 1.30,
+  "curve": {
+    "contrast": 1.25,
+    "shadow_lift": -0.02,
+    "highlight_rolloff": 0.03
+  },
+  "grain": {
+    "intensity": 0.12,
+    "size": 1.0,
+    "mono": false
+  },
+  "bw": false,
+  "lut3d": null,
+  "strength": 1.0
+}
