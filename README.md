@@ -81,3 +81,7 @@ st cap capdtm setusr 20 0x140009   # PW_CUSTOM1
 ## License
 
 参考 [nx500_nx1_modding](https://github.com/WApaperplane/nx500_nx1_modding) 项目惯例。代码仅供研究学习。
+
+## 紧急救砖 / Emergency Recovery (NX500)
+
+如在实验过程中遇到软砖（无法正常进入系统，如 `nx-on-wake` 或 `systemctl rescue` 异常），**NX500** 可免拆机恢复（**NX1 未验证**）：将官方未修改 `nx500.bin` 放至干净 FAT32 SD 卡根目录，拔电池插卡并将屏幕翻起至自拍位后装回电池，按住 **MOBILE (Wi-Fi) + AEL + 全按快门** 开机进入 Recovery Mode，再长按快门重刷（刷写中切勿断电）。详见 [`nx500-dnloader`](https://github.com/WApaperplane/nx500-dnloader/blob/main/docs/BOOT0_ANATOMY.md)。
